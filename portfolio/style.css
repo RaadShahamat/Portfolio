@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+
+}
+
+.sidebar {
+    position: fixed;
+    width: 22%;
+    height: 100%;
+    background: rgb(85, 18, 82);
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: rgb(211, 211, 211);
+
+}
+
+
+.naving {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.naving a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+}
+
+.naving a:hover{
+    font-size: 1.6rem;
+}
+.second {
+    margin-left: 28%;
+}
+
+fieldset {
+    width: 800px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.list {
+    font-size: 1.3rem;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+}
+
+.experience {
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.education li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.75;
+    margin-right: 20px;
+}
+
+.education p {
+    font-size: 1.2rem;
+    font-family: 'Space Mono', monospace;
+    margin-top: 0;
+}
+
+.course a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-top: 0;
+
+
+}
+
+.course h2 {
+    margin-bottom: 0;
+}
+
+.about {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.cont {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-around;
+}
+
+.cont img {
+    width: 35px;
+
+}
+
+.con-info {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+
+}
+
+.con-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height:auto;
+        
+    }
+    .second{
+        width:80%;
+        margin-top: 640px;
+        margin-left:0;
+        
+    }
+}
